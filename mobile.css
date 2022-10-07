@@ -1,0 +1,171 @@
+@media screen and (max-width: 800px) {
+  body {
+    background-position: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 12px;
+  }
+  header {
+    height: 55px;
+    padding: 10px;
+  }
+  .logo_txt {
+    height: 30px;
+  }
+
+  li {
+    margin-left: 40px;
+  }
+  /* #Header */
+
+  /* Main */
+  main {
+    margin-top: 150px;
+  }
+  .icons {
+    height: 250px;
+  }
+  i {
+    font-size: 18px;
+  }
+  .text_card {
+    margin-left: 40px;
+  }
+  .perfect {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 55px;
+    margin-bottom: 20px;
+  }
+  .enhance {
+    font-size: 13px;
+  }
+  .time_card {
+    width: 300px;
+    height: 350px;
+  }
+  .time {
+    margin-left: 115px;
+  }
+
+  .days {
+    font-size: 50px;
+  }
+  .month {
+    font-size: 50px;
+  }
+  .times {
+    width: 205px;
+    height: 50px;
+  }
+
+  .times::before {
+    margin-left: -30px;
+  }
+  .times::after {
+    right: 55px;
+  }
+  /* #Main */
+
+  /* Footer */
+  footer {
+    width: 90%;
+  }
+
+  .lorem {
+    font-size: 16px;
+  }
+  .my_map {
+    width: 500px;
+    margin: 40px 120px 120px 120px;
+  }
+
+  .my_video {
+    width: 500px;
+    margin: 40px 120px 120px 120px;
+  }
+}
+@media screen and (max-width: 490px) {
+  body {
+    background-position: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 9px;
+  }
+  header {
+    height: 55px;
+    padding: 25px;
+    width: 110px;
+    justify-content: space-around;
+  }
+  .logo_img {
+    width: 50px;
+    margin: 0px;
+  }
+  ul {
+    justify-content: space-around;
+  }
+
+  .logo_txt {
+    height: 30px;
+  }
+
+  /* #Header */
+
+  /* Main */
+  main {
+    margin-top: 110px;
+  }
+  .icons {
+    height: 250px;
+  }
+  i {
+    font-size: 11px;
+  }
+  .text_card {
+    margin-left: 30px;
+  }
+  .perfect {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 32px;
+    margin-bottom: 10px;
+  }
+  .enhance {
+    font-size: 9px;
+  }
+  .time_card {
+    display: none;
+  }
+  .bottom_card {
+    height: 140px;
+    margin-top: 25px;
+    padding-left: 28px;
+  }
+
+  /* #Main */
+
+  /* Footer */
+  footer {
+    width: 90%;
+    margin-top: 70px;
+  }
+
+  .lorem {
+    margin: 3%;
+    font-size: 11px;
+  }
+  .my_map {
+    width: 350px;
+    height: 300px;
+    margin: 10px 10px 30px 40px;
+  }
+
+  .my_video {
+    width: 350px;
+    height: 300px;
+    margin: 10px 10px 30px 40px;
+  }
+}
